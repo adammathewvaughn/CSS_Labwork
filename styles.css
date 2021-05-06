@@ -25,11 +25,21 @@ body {
   }
 
   .boxes {
-    margin: 1rem;
-    padding: 1rem;
-    border: .5rem solid burlywood;
+    margin: .5rem;
+    padding: .5rem;
+    border: .45rem solid burlywood;
+    border-radius: 6%;
     width: 30em;
     display: block;
+  }
+
+  .images{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: goldenrod;
+    position: absolute;
+    
   }
 
   #Box1 {
@@ -38,6 +48,8 @@ body {
 
   #Box2 {
     background-color: rgb(48, 68, 161);
+    position: relative;
+    margin: 0 0 100 100;
   }
 
   #Box3 {
@@ -47,3 +59,52 @@ body {
   #Box4 {
     background-color: rgb(167, 44, 27);  
   }
+
+  h1 {
+    color:blue
+  }
+
+.original {
+    color: blueviolet;
+}
+
+.additional {
+  color:coral;
+}
+
+
+#Show1{
+  color:rgb(109, 94, 12);
+}
+
+#Show2{
+  color:silver ;
+}
+
+#Show3{
+  color:rgb(97, 74, 16);
+}
+
+#Show4{
+  color:blanchedalmond ;
+}
+
+#Show5{
+  color:cornflowerblue;
+}
+
+ul {
+  color:rgb(0, 195, 255)
+}
+
+.star {
+  color: crimson;
+}
+
+#wars {
+  color: darkorange;
+}
+
+.border {
+  border: 2px solid black;
+}
