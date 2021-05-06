@@ -1,8 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 body {
   font-family:"Oswald" serif;
   background-color: lightgray;
  }
- .boxes {
-   text-align: center
- }
+
+ h2, p, .readme-wrapper {
+  text-align: center;
+  }
+  
+  a {
+    text-decoration-line: none;
+  }
+
+  a:hover {
+    color: yellow;
+    cursor: pointer;
+    font-weight: 900;
+  }
+
+  span {
+    color:rgb(255, 0, 21);
+    font-weight: 600;
+  }
+
+  .boxes {
+    margin: 1rem;
+    padding: 1rem;
+    border: .5rem solid burlywood;
+    width: 30em;
+    display: block;
+  }
+
+  #Box1 {
+    background-color: cadetblue;
+  }
+
+  #Box2 {
+    background-color: rgb(48, 68, 161);
+  }
+
+  #Box3 {
+    background-color: rgb(29, 167, 59);
+  }
+
+  #Box4 {
+    background-color: rgb(167, 44, 27);  
+  }
